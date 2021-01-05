@@ -1,0 +1,9 @@
+[submodule "XTILoger"]
+	path = XTILoger
+	url = https://github.com/xt-input/XTILoger.git
+[submodule "XTINetwork"]
+	path = XTINetwork
+	url = https://github.com/xt-input/XTINetwork.git
+[submodule "XTIBaseTool"]
+	path = XTIBaseTool
+	url = https://github.com/xt-input/XTIBaseTool.git
