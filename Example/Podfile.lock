@@ -1,0 +1,33 @@
+PODS:
+  - Alamofire (5.4.1)
+  - XTIBaseTool (1.0)
+  - XTILoger (1.0)
+  - XTINetwork (1.0):
+    - Alamofire
+
+DEPENDENCIES:
+  - XTIBaseTool (from `../XTIBaseTool`)
+  - XTILoger (from `../XTILoger`)
+  - XTINetwork (from `../XTINetwork`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  XTIBaseTool:
+    :path: "../XTIBaseTool"
+  XTILoger:
+    :path: "../XTILoger"
+  XTINetwork:
+    :path: "../XTINetwork"
+
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  XTIBaseTool: 27f465e15b9332f569e3ec90431f70e95ad979be
+  XTILoger: e5a5200f5239b2e343dcf0d1e96f3afb830c1021
+  XTINetwork: 99c5ede7670400ffcec685b164581697f515837b
+
+PODFILE CHECKSUM: 7f08207f6e69165de44abbc98db83c4dc33c85a5
+
+COCOAPODS: 1.10.0
