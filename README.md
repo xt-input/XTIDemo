@@ -10,6 +10,7 @@
 
 ```shell
 git clone https://github.com/xt-input/XTIDemo.git
+cd XTIDemo
 git submodule init
 git submodule update
 cd Example
