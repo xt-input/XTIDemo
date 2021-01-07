@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         XTINetworkManager.default.baseUrl = "http://design.tcoding.cn"
-
+        XTINetworkManager.default.timeoutInterval = 3
         XTINetworkManager.default.httpHeaderBlock = { _, value in
             var tempValue = value
             tempValue["app"] = "123123"
