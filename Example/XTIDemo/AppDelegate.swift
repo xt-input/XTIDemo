@@ -6,8 +6,8 @@
 //
 
 import UIKit
-import XTIBaseTool
 import XTILoger
+import XTINetwork
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,11 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        XTILoger.info("123")
-        XTILoger.debug("123")
-        XTILoger.warning("123")
-        XTILoger.error("123")
-
+        XTINetworkManager.default.baseUrl = "http://design.tcoding.cn"
         return true
     }
 }

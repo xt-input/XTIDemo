@@ -14,5 +14,5 @@ target 'XTIDemo' do
   pod 'XTIBaseTool', :path => '../XTIBaseTool'
   pod 'XTILoger', :path => '../XTILoger'
   pod 'XTINetwork', :path => '../XTINetwork'
-
+  pod 'SnapKit'
 end

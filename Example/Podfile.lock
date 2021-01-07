@@ -1,11 +1,13 @@
 PODS:
   - Alamofire (5.4.1)
+  - SnapKit (5.0.1)
   - XTIBaseTool (1.0)
   - XTILoger (1.0)
   - XTINetwork (1.0):
     - Alamofire
 
 DEPENDENCIES:
+  - SnapKit
   - XTIBaseTool (from `../XTIBaseTool`)
   - XTILoger (from `../XTILoger`)
   - XTINetwork (from `../XTINetwork`)
@@ -13,6 +15,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - SnapKit
 
 EXTERNAL SOURCES:
   XTIBaseTool:
@@ -24,10 +27,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   XTIBaseTool: 27f465e15b9332f569e3ec90431f70e95ad979be
   XTILoger: e5a5200f5239b2e343dcf0d1e96f3afb830c1021
   XTINetwork: 99c5ede7670400ffcec685b164581697f515837b
 
-PODFILE CHECKSUM: c496d618667ee528bbb9c1ea1253157b70926ee1
+PODFILE CHECKSUM: b5776411cde2d6fcb732bc37aa2fd458a9547bc0
 
 COCOAPODS: 1.10.0
